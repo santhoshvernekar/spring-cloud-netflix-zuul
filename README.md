@@ -23,14 +23,14 @@ We can implement these filters by extending a class ZuulFilter, I have implement
 
 For example: If gateway service is running on port 8080 and hello application running on 1111 and goodbye application running on 2222 port
 
-You can hit the hello and goodbye application end points on port 8080 only (hello and goodbye applications end points can be accessed using http://localhost/hello and http://localhost/goodbve )
+You can hit the hello and goodbye application end points on port 8080 only (hello and goodbye applications end points can be accessed using http://localhost:8080/hello and http://localhost:8080/goodbve) . The user need not to know the exact port on which hello and goodbye applications are running, the proxy or gateway service is managing this routing in the background
 
 * Step 5: You can find the location is getting in the request header which is coming from zuul proxy.
 
 
 
 
-
+Happy Coding!!
 
 
 
