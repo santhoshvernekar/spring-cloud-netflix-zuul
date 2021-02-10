@@ -18,7 +18,7 @@ We can implement these filters by extending a class ZuulFilter, I have implement
 * [optional] To check the service getting registered with service discovery, we need to run the service discovery on our machine, You can find project in my repo [eureka-service-discovery](https://github.com/santoshmv121/eureka-discovery-server)
 * Step 1: Launch the service discovery
 * Step 2: Add @EnableZuulProxy annotation on Main class to enable the Zuul proxy
-* Step 3: We need to run some client apps to see routing through proxy
+* Step 3: We need to run some client apps to see routing through proxy ( [hello application](https://github.com/santhoshvernekar/hello-service) and [goodbye application](https://github.com/santhoshvernekar/goodbye-service) ) , launch them
 * Step 4: Zuul by default uses application name for routing
 
 For example: If gateway service is running on port 8080 and [hello application](https://github.com/santhoshvernekar/hello-service) running on 1111 and [goodbye application](https://github.com/santhoshvernekar/goodbye-service) running on 2222 port
