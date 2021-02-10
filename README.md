@@ -6,7 +6,7 @@ run mvn clean install
 
 Zuul acts as an API gateway or Edge service,the Zuul is built to enable dynamic routing, monitoring, resiliency, and security. 
 
-It provides a range of different types of filters, namely:
+It provides a range of different types of filters,
 * pre filters – are invoked before the request is routed.
 * post filters – are invoked after the request has been routed.
 * route filters – are used to route the request.
